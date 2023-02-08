@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>question 9</title>
+  </head>
+  <body>
+    <header>
+      <h1>Q9.</h1>
+    </header>
+    <section>
+      <table>
+        <tr>
+          <h1>Audio and Videos</h1>
+          <th>
+            <audio controls autoplay>
+              <source
+                src="http://techslides.com/demos/samples/sample.mp3"
+                type="audio/mpeg"
+              />
+            </audio>
+            <figcaption>This is audio file</figcaption>
+          </th>
+          <th>
+            <video width="320" height="240" controls muted autoplay>
+              <source
+                src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+                type="video/mp4"
+              />
+              <source
+                src="http://techslides.com/demos/sample-videos/small.webm"
+                type="video/mp4"
+              />
+              <track
+                src="/captions_file.vtt"
+                label="English"
+                kind="captions"
+                srclang="en-us"
+                default
+              />
+              <track
+                src="/French_captions_file.vtt"
+                label="French"
+                kind="subtitles"
+                srclang="fr"
+              />
+            </video>
+            <figcaption>This is vedio file 1 with mp4 extention</figcaption>
+          </th>
+          <th>
+            <video width="320" height="240" controls muted autoplay>
+              <source
+                src="http://techslides.com/demos/sample-videos/small.webm"
+                type="video/mp4"
+              />
+            </video>
+            <figcaption>This is vedio file 2 with webm extention</figcaption>
+          </th>
+        </tr>
+      </table>
+    </section>
+  </body>
+</html>

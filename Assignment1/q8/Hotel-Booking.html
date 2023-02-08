@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hotel booking</title>
+    <style>
+      table,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        background-color: rgb(230, 226, 226);
+        padding: 5px;
+      }
+      form {
+        margin-left: 33%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="new-home.html">Home</a>
+      <h1 style="text-align: center">Hotel Booking</h1>
+      <p style="text-align: center">Book your hotels and enjoy!</p>
+    </header>
+    <section>
+      <form>
+        <table>
+          <tr>
+            <td>Enter Your First Name</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>Enter Your Last Name</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>Enter Your Phone no</td>
+            <td><input type="phone" /></td>
+          </tr>
+          <tr>
+            <td>Enter Your Email</td>
+            <td><input type="email" /></td>
+          </tr>
+
+          <tr>
+            <td>Enter Your Address</td>
+            <td>
+              <textarea name="address" id="" cols="20" rows="10"></textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Gender</td>
+            <td>
+              <input type="radio" name="gender" />Male
+              <input type="radio" name="gender" />Female
+            </td>
+          </tr>
+
+          <tr>
+            <td>Select your Country</td>
+            <td>
+              <select>
+                <option value="">select your country</option>
+                <option value="america">America</option>
+                <option value="pakistan">Pakistan</option>
+                <option value="algeria">Algeria</option>
+                <option value="india">India</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Upload your pic</td>
+            <td><input type="file" value="Choose File" /></td>
+          </tr>
+          <tr>
+            <td>Select your Tourist spot</td>
+            <td>
+              <select>
+                <option value="">select your country</option>
+                <option value="america">India</option>
+                <option value="pakistan">America</option>
+                <option value="algeria">Japan</option>
+                <option value="india">Indonesia</option>
+                <option value="algeria">Switzherland</option>
+                <option value="india">Canada</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td style="text-align: right"><input type="reset" /></td>
+            <td>
+              <input
+                onclick="toursites/india-toursites.html"
+                type="submit"
+                value="Book"
+              />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </section>
+  </body>
+</html>
